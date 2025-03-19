@@ -2,11 +2,11 @@ import { Routes, Route, Navigate } from "react-router-dom"
 import { Navbar } from "../../ui"
 import { MarvelPage,DcPage,SearchPage,HeroPage } from "../pages"
 
-
 export const HeroesRoutes = () => {
   return (
     <>
-        <Navbar/>
+            <Navbar/>
+
         <div className="container">
             <Routes>
                 <Route path="marvel" element={<MarvelPage />} />
